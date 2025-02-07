@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Чат-бот</title>
+    <style>
+        body { font-family: Arial, sans-serif; background-color: #f4f4f4; text-align: center; }
+        #chat-box { width: 300px; height: 400px; overflow-y: auto; border: 1px solid #ccc; padding: 10px; background: white; margin: auto; }
+        .message { padding: 5px; margin: 5px; border-radius: 5px; }
+        .user { background: #d1e7fd; text-align: right; }
+        .bot { background: #eee; text-align: left; }
+        #user-input { width: 80%; padding: 5px; }
+        #send-button { padding: 5px 10px; cursor: pointer; }
+    </style>
+</head>
+<body>
+
+<h1>Чат-бот</h1>
+<div id="chat-box"></div>
+<input type="text" id="user-input" placeholder="Введите сообщение...">
+<button id="send-button">Отправить</button>
+
+<script src="chat.js"></script>
+
+</body>
+</html>
